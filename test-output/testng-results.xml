@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[<img src="file://C:\Users\acs\workspace\Test27_sep\src\test\resources\execution_Report2019.09.30.11.23.19.png" alt=""/>]]>
+    </line>
+    <line>
+      <![CDATA[First Name has been enteredhas been entered]]>
+    </line>
+    <line>
+      <![CDATA[Last Name has been enteredhas been entered]]>
+    </line>
+    <line>
+      <![CDATA[Title has been enteredhas been entered]]>
+    </line>
+    <line>
+      <![CDATA[Email Name has been enteredhas been entered]]>
+    </line>
+    <line>
+      <![CDATA[Mobile Number Name has been enteredhas been entered]]>
+    </line>
+    <line>
+      <![CDATA[Company Name has been enteredhas been entered]]>
+    </line>
+    <line>
+      <![CDATA[Employees has been selected has been selected]]>
+    </line>
+    <line>
+      <![CDATA[en_UShas been clicked]]>
+    </line>
+    <line>
+      <![CDATA[SignUp button has been clickedhas been clicked]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="154127" started-at="2019-09-30T05:51:30Z" finished-at="2019-09-30T05:54:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="154127" started-at="2019-09-30T05:51:30Z" finished-at="2019-09-30T05:54:04Z">
+      <class name="com.mansingh.TestCases.TestCase1">
+        <test-method status="PASS" signature="LoadingFiles()[pri:0, instance:com.mansingh.TestCases.TestCase1@60704c]" name="LoadingFiles" is-config="true" duration-ms="798" started-at="2019-09-30T11:21:29Z" finished-at="2019-09-30T11:21:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoadingFiles -->
+        <test-method status="PASS" signature="isSkip()[pri:0, instance:com.mansingh.TestCases.TestCase1@60704c]" name="isSkip" is-config="true" duration-ms="0" started-at="2019-09-30T11:21:30Z" finished-at="2019-09-30T11:21:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- isSkip -->
+        <test-method status="PASS" signature="LaunchingBrowser()[pri:0, instance:com.mansingh.TestCases.TestCase1@60704c]" name="LaunchingBrowser" is-config="true" duration-ms="107493" started-at="2019-09-30T11:21:30Z" finished-at="2019-09-30T11:23:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchingBrowser -->
+        <test-method status="PASS" signature="TC001_Create_an_Account1(java.util.Hashtable)[pri:0, instance:com.mansingh.TestCases.TestCase1@60704c]" name="TC001_Create_an_Account1" duration-ms="45633" started-at="2019-09-30T11:23:18Z" data-provider="data_Collections" finished-at="2019-09-30T11:24:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{Pincode=45507, YY=86, Phone_Numer=9850658748, Home_Phone='9850658748, Company=QSP, Iteration=1, CompanyLanguage=en_US, Last_Name=Ganjare, Email_ID=test.test1234@gmail.com, Title=Mr, Password=Rahul#124, Additional_Info=Nothing, City=Pune, First_Name=Rahul, Address2=pune, State=New York, Employees=15}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<img src="file://C:\Users\acs\workspace\Test27_sep\src\test\resources\execution_Report2019.09.30.11.23.19.png" alt=""/>]]>
+            </line>
+            <line>
+              <![CDATA[First Name has been enteredhas been entered]]>
+            </line>
+            <line>
+              <![CDATA[Last Name has been enteredhas been entered]]>
+            </line>
+            <line>
+              <![CDATA[Title has been enteredhas been entered]]>
+            </line>
+            <line>
+              <![CDATA[Email Name has been enteredhas been entered]]>
+            </line>
+            <line>
+              <![CDATA[Mobile Number Name has been enteredhas been entered]]>
+            </line>
+            <line>
+              <![CDATA[Company Name has been enteredhas been entered]]>
+            </line>
+            <line>
+              <![CDATA[Employees has been selected has been selected]]>
+            </line>
+            <line>
+              <![CDATA[en_UShas been clicked]]>
+            </line>
+            <line>
+              <![CDATA[SignUp button has been clickedhas been clicked]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC001_Create_an_Account1 -->
+        <test-method status="PASS" signature="writeIntoExtentReport()[pri:0, instance:com.mansingh.TestCases.TestCase1@60704c]" name="writeIntoExtentReport" is-config="true" duration-ms="964" started-at="2019-09-30T11:24:03Z" finished-at="2019-09-30T11:24:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeIntoExtentReport -->
+      </class> <!-- com.mansingh.TestCases.TestCase1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

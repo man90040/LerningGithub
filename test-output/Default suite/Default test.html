@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Sep 30 11:21:30 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>154 seconds (154127 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.mansingh.TestCases.TestCase1.TC001_Create_an_Account1()'><b>TC001_Create_an_Account1</b><br>Test class: com.mansingh.TestCases.TestCase1<br>Parameters: {Pincode=45507, YY=86, Phone_Numer=9850658748, Home_Phone='9850658748, Company=QSP, Iteration=1, CompanyLanguage=en_US, Last_Name=Ganjare, Email_ID=test.test1234@gmail.com, Title=Mr, Password=Rahul#124, Additional_Info=Nothing, City=Pune, First_Name=Rahul, Address2=pune, State=New York, Employees=15}<br/>
+<a href="#Output-1668910247" onClick='toggleBox("Output-1668910247", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1668910247" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1668910247">
+<img src="file://C:\Users\acs\workspace\Test27_sep\src\test\resources\execution_Report2019.09.30.11.23.19.png" alt=""/><br/>
+First Name has been enteredhas been entered<br/>
+Last Name has been enteredhas been entered<br/>
+Title has been enteredhas been entered<br/>
+Email Name has been enteredhas been entered<br/>
+Mobile Number Name has been enteredhas been entered<br/>
+Company Name has been enteredhas been entered<br/>
+Employees has been selected has been selected<br/>
+en_UShas been clicked<br/>
+SignUp button has been clickedhas been clicked<br/>
+</div>
+</td>
+<td></td>
+<td>45</td>
+<td>com.mansingh.TestCases.TestCase1@60704c</td></tr>
+</table><p>
+</body>
+</html>
